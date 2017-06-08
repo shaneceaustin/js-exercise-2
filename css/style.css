@@ -8,18 +8,24 @@
 h1 {
 	color:#000;
 	text-decoration: none; 
-	font-size: 40px;
+	font-size: 50px;
 	text-align: center;
-	font-family: 'Shadows Into Light', regular;
-
+	font-family: 'Shadows Into Light', regular
+	
 }
 
 img {
-	width:100%;
+	width:66%;
 	display: block;
 	margin:10px auto;
 }
 
 form {
 	text-align: center;
+	padding-top: 40px;
 }
+
+body {
+	text-align: center;
+}
+

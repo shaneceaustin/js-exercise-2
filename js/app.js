@@ -9,7 +9,7 @@ function addToDo(event) {
 	if(userInput.value === ''){
 		return false
 	}
-toDoList.innerHTML += '<li>' + userInput.value + '</li>';
+toDoList.innerHTML = '<li>' + userInput.value + '</li>' + toDoList.innerHTML;
 
 userInput.value = '';
 
