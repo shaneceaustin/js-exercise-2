@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin:  0;
+	padding: 0;
+	background-color: #e8fff1;
+}
+
+h1 {
+	color:#000;
+	text-decoration: none; 
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Shadows Into Light', regular;
+
+}
+
+img {
+	width:100%;
+	display: block;
+	margin:10px auto;
+}
+
+form {
+	text-align: center;
+}
