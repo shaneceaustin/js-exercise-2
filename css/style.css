@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	margin:  0;
 	padding: 0;
-	background-color: #e8fff1;
+	/*background-color: #e8fff1;*/
 }
 
 h1 {
@@ -15,17 +15,30 @@ h1 {
 }
 
 img {
-	width:66%;
+	width:100%;
 	display: block;
 	margin:10px auto;
 }
 
 form {
 	text-align: center;
-	padding-top: 40px;
+	padding: 20px;
+	background-color: #e8fff1;
 }
 
 body {
+	background-image: url(../images/notebook1.jpeg);
+	background-size: cover;
+	background-position: center;
 	text-align: center;
 }
 
+.close-to-do {
+	display: inline-block;
+	margin-right:10px;
+	font-size: 10px;
+}
+
+.center-text {
+   text-align: center;
+}
